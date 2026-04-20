@@ -36,9 +36,13 @@
 
   <!-- Button to open PDF -->
   <button onclick="openPDF()">Open PDF</button>
+  <button onclick="openPDFAdmin()">Open PDF Admin</button>
 
   <script>
     function openPDF() {
+      window.open("file.pdf", "_blank");
+    }
+    function openPDFAdmin() {
       window.open("file.pdf", "_blank");
     }
   </script>
